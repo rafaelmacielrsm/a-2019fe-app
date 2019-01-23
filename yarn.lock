@@ -908,6 +908,13 @@
     "@svgr/core" "^2.4.1"
     loader-utils "^1.1.0"
 
+"@types/aphrodite@^0.5.13":
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/@types/aphrodite/-/aphrodite-0.5.13.tgz#0290eb7250d81aaab384320d894f027eb92452e0"
+  integrity sha512-1Li6+mLQYgKrQYopVh8yM8MhHgf2jsRbDruQeqzGWORXC4VqgYf6H/18TB/PSlKJIC7QN8IIS8aoAYBMGvvhDw==
+  dependencies:
+    csstype "^2.2.0"
+
 "@types/jest@23.3.12":
   version "23.3.12"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-23.3.12.tgz#7e0ced251fa94c3bc2d1023d4b84b2992fa06376"

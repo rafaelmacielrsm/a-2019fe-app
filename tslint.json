@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended", "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+      "no-consecutive-blank-lines": [true, 1],
+      "quotemark": [true, "single"],
+      "ter-indent": [true, 2],
+      "triple-equals": true,
+      "no-multi-spaces": true,
+      "comma-spacing": [ "error", { "before": false, "after": true }],
+      "semicolon": [true, "always", "ignore-interfaces"],
+      "no-trailing-whitespace": [true, "ignore-comments", "ignore-jsdoc"]
+    },
+    "rulesDirectory": [
+      "node_modules/tslint-eslint-rules/dist/rules"
+    ]
+}
