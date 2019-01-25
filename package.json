@@ -33,9 +33,14 @@
   ],
   "devDependencies": {
     "@types/aphrodite": "^0.5.13",
+    "@types/enzyme": "^3.1.15",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
     "faker": "^4.1.0",
     "jest": "^23.6.0",
     "redux-devtools-extension": "^2.13.7",
+    "redux-mock-store": "^1.5.3",
     "tslint": "^5.12.1",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-react": "^3.6.0"
