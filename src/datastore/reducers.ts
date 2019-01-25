@@ -6,7 +6,7 @@ export interface IState {
   isFetching: boolean,
 }
 
-const isFetching = ( state: boolean = true, action: IAction): boolean => {
+const isFetching = ( state: boolean = false, action: IAction): boolean => {
   switch ( action.type ) {
   case C.FETCH:
     return true;
